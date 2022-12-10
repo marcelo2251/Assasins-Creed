@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assasin's Creed</title>
+    <!--Enlace stylesheet de font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Enlace hoja de estilo -->
+    <link rel="stylesheet" href="./CSS/index.css">
+    <!--Enlace del favicon-->
+    <link rel="shortcut icon" href="./Imágenes/Simboloassasinscreed.jfif" type="image/x-icon">
+    <!--Enlace a el JS-->
+    <script src="./JS/slide.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <nav> <!--Barra navegación-->
+            <div class="topnav" id="myTopnav"> 
+                <a href="#"> Casa</a>
+                <a href="#intro">Introducción</a>
+                <a href="#Personajes"> Personajes</a>
+                <a href="#footer"> Redes sociales</a>
+                <a href="#galería">Galería</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        <!--Hero-->
+        <section id="hero">
+            <div id="video">
+                <video autoplay muted loop id="trailer">
+                <source src="./Videos/Assasin's Creed Revelations.mp4">
+
+                </video>
+            </div>
+        </section>
+    <!--INTRODUCCION-->
+        <section id="intro">
+            <h1>Introducción</h1>
+            <div id="descripcion">
+         <p>Assasin's Creed es una de mis franquicias favortias de videojuegos. Esta franquicia está desarrollada en todas las plataformas (xbox,play, pc, nintendo switch), incluso para los móviles, esta franquicia se desarrola en épocas importantes de la historia un ejemplo de esto es de Assasins Creed III. 
+            Este juego se desarrolla en la época de la guerra de la independiencia de Estados Unidos.
+            Esta saga me ha marcado mucho a lo largo de la vida y me ha enseñado muchas cosas sobre historia que no sabía.
+         </p>
+        </div>
+        </section>
+
+        <section id="tituloseccion">
+           <h1> Personajes </h1>
+        </section>
+
+<!--Parte de personajes-->
+
+        <section id="Personajes">
+            <div id="grid">
+                <div class="columna">
+                    <div class="card">
+                        <img src="./Imágenes/Altair.jpeg" alt="Altair" style="width:100%">
+                        <div class="container">
+                            <h2>Altair</h2>
+                            Maestro Asesino de la edad media
+                            <br>
+                    <br>
+                    <a class="links" href="./Altair.html">Leer más</a>
+                            </div>
+                    </div>
+                </div>
+                
+                <div class="columna">
+                    <div class="card">
+                        <img src="./Imágenes/Ezio.jpeg" alt="Ezio" style="width: 100%">
+                        <div class="container">
+                            <h2>Ezio Auditore</h2>
+                            Maestro asesino de la época de la Italia renacentista
+                     <br>
+                    <br>
+                    <a class="links" href="./Ezio.html">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="columna">
+                    <div class="card">
+                        <img src="./Imágenes/Connor.jpg" alt="Connor" style="width: 100%">
+                        <div class="container">
+                            <h2>Connor Kenway</h2>
+                            Maestro asesino de la república americana 
+                            <br>
+                            <br>
+                             <a class="links" href="./Connor.html">Leer más</a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="columna">
+                    <div class="card">
+                        <img src="./Imágenes/Eduard.jpg" alt="Eduard" style="width: 100%">
+                        <div class="container">
+                            <h2>Eduard Kenway</h2>
+                            Pirata de la época de la edad dorada de los piratas
+                            <br>
+                    <br>
+                    <a class="links" href="./Eduard.html">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--Galería -->
+
+<section id="galería">
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="./Imágenes/Slidegalery/Assasins Creed I.jpg" style="width:100%">
+      
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="./Imágenes/Slidegalery/Assasins Creed II.jpg" style="width:100%">
+      
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="./Imágenes/Slidegalery/Assasins Creed III.jpg" style="width:100%">
+      
+    </div>
+  
+<div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="./Imágenes/Slidegalery/Assasins Creed IV.jpg" style="width: 100%;">
+
+</div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+
+</section>
+
+        <!--Footer-->
+
+        <section id="footer">
+            
+        <div class="grid">
+            <div class="columna">
+                <img src="./Imágenes/Simboloassasinscreed.jfif" >
+                <div class="columna">
+                    <a href="#" class="enlace">Inicio</a>
+                    <br>
+                    <a href="#intro" class="enlace">Introducción</a>
+                    <br>
+                    <a href="#Personajes" class="enlace">Personajes</a>
+                    <br>
+                    <a href="#galería" class="enlace">Galería</a>
+                </div>
+            </div>
+            <!-- ICONOS DE REDES SOCIALES -->
+            <div class="columna">
+                <a href="https://www.instagram.com/assasinscreed.valhalla/" class="fa fa-instagram" target="_blank">
+                </a>
+                
+                <a href="https://twitter.com/assassinsspain" class="fa fa-twitter" target="_blank"></a>
+                
+                <a href="https://www.youtube.com/watch?v=Jm2IEdk5H8o" class="fa fa-youtube" target="_blank"></a>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

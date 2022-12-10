@@ -1,0 +1,119 @@
+/*******************************************************************************/
+/* Web de Assasin's Creed                                                      */
+/* Hoja de estilo para index                                                   */
+/* autor: Martín Morente Vargas                                                */
+/* versión: 1.0                                                                */
+/* 27 de Noviembre de 2022                                                     */
+/*******************************************************************************/
+
+@font-face {
+    font-family: textos;
+    src: url(https://educacionadistancia.juntadeandalucia.es/centros/malaga/pluginfile.php/272877/local_mail/message/Fonts/DAYROM__.ttf);
+}
+
+@font-face {
+    font-family: titulos;
+    src: url(https://educacionadistancia.juntadeandalucia.es/centros/malaga/pluginfile.php/272877/local_mail/message/Fonts/Candylove.ttf);
+}
+
+* {box-sizing: border-box;}
+
+body{font-family: textos;
+    background-color: rgb(122, 122, 122);
+    margin: 0; padding: 0;}
+
+#wrapper{width: 90%;
+        background-color: aliceblue;
+        margin: auto;
+        }
+
+section{padding: 3% 0;}
+
+/******************** hero section de video (copiado de w3schools )  ****/
+/* Style the video: 100% width and height to cover the entire window */
+#hero {padding:0;} /* aquí no puedes tener padding, sino sale un hueco arriba 
+                     del video */
+#myVideo {
+    /* position: fixed; */ position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+
+  
+
+h1{text-align: center;
+    font-family: titulos;}
+
+#descripcion{
+    padding: 3%;
+    font-size: 1.2rem;
+}
+/* Personajes */
+#grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.columna{
+    padding: 2%;
+}
+
+/* cards*/
+
+.card{
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.2s;
+}
+
+.card:hover{
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+
+    padding: 2px 16px;
+}
+
+.enlace{
+    text-decoration: none;
+    color: darkred;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.topnav{
+    background-color: black;
+    opacity: 0.5;
+    overflow: hidden;}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(197, 197, 197);
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 15px;}
+
+.topnav a:hover{
+    background-color: white;
+    color: darkred;
+    font-weight: bold;
+}
+
+
+
+.topnav .icon{
+    display: none;
+    padding: 0px;
+}
+

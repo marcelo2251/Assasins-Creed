@@ -1,0 +1,64 @@
+/*******************************************************************************/
+/* Web Assasin's creed                                                        */
+/* Hoja de estilo para Ezio                                                    */
+/* autor: Martín Morente Vargas                                                */
+/* versión: 1.0                                                                */
+/* 25 de Noviembre de 2022                                                     */
+/*******************************************************************************/
+
+/*********************ESTILO GENERAL*******************************************/
+
+
+@font-face {
+    font-family: textos ;
+    src: url(../Fonts/DAYROM__.ttf);
+
+}
+
+@font-face {
+    src: url(../Fonts/Candylove.ttf);
+    font-family: titulos;
+}
+
+* {box-sizing: border-box;}
+
+body {margin: 0; padding: 0;
+        font-family: textos;
+        background-color:rgb(206, 202, 149);
+        color: rgb(0, 0, 0);
+        font-size: 1rem;}
+
+#wrapper {
+   background-image: url(../Imágenes/Fondo\ Antiguio\ assasins\ creed\ II.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+    width: 95%;/*Esto es para ajustar el ancho*/
+    margin: 0 auto;
+    padding: 2%;
+    padding-bottom:10%}
+
+h1{font-family: titulos;
+    text-align: center;
+    }
+
+
+#trailer{width: 85%; 
+    height: 85% ;
+  
+}
+
+@media only screen and (width<=700px){
+    #trailer{position: relative;
+        right: 0px;
+        left: 0px;
+        bottom: 0px;
+        min-width: 10%;
+        min-height: 10%;}
+    
+        #wrapper{width: 100%;}
+    }
+
+
+
+
+
